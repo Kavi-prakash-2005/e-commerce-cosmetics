@@ -1,0 +1,105 @@
+/* ProductDetails.css */
+
+/* General container styling */
+.container {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+/* Product details and reviews */
+body {
+    background-color: #f0f0f5; /* Light grayish-blue background for better contrast */
+}
+
+/* Breadcrumb styling */
+.breadcrumb {
+    background-color: transparent;
+    padding: 0;
+    margin: 0;
+}
+
+.breadcrumb-item a {
+    color: #6c757d;
+}
+
+.breadcrumb-item.active {
+    color: #495057;
+}
+
+/* Product title and price */
+h2.text-lavender {
+    color: #6c63ff;
+    font-weight: bold;
+}
+
+h3.text-lavender {
+    color: #6c63ff;
+    font-weight: bold;
+}
+
+/* Rating stars */
+.text-warning {
+    font-size: 1.2rem;
+}
+
+/* Color options */
+.color-option {
+    border: 2px solid transparent;
+    transition: border-color 0.3s ease;
+}
+
+.color-option:hover {
+    border-color: #6c63ff;
+}
+
+/* Buttons */
+button.btn-lavender {
+    background-color: #6c63ff;
+    color: #fff;
+    border: none;
+}
+
+button.btn-lavender:hover {
+    background-color: #5a54d6;
+}
+
+button.btn-outline-lavender {
+    border-color: #6c63ff;
+    color: #6c63ff;
+}
+
+button.btn-outline-lavender:hover {
+    background-color: #6c63ff;
+    color: #fff;
+}
+
+/* Tabs */
+.nav-tabs .nav-link {
+    color: #6c757d;
+}
+
+.nav-tabs .nav-link.active {
+    color: #6c63ff;
+    border-color: #6c63ff;
+}
+
+/* Thumbnail images */
+.img-thumbnail {
+    transition: transform 0.3s ease;
+}
+
+.img-thumbnail:hover {
+    transform: scale(1.1);
+}
+
+/* Shipping and returns icons */
+.text-muted div {
+    font-size: 1.5rem;
+}
+
+/* Product details and reviews */
+.tab-content {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}

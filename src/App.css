@@ -1,0 +1,131 @@
+body {
+  background: linear-gradient(to right,  #bbaed4, #bbaed4);
+  /* background-color:hsl(260, 60%, 65%); */
+  background-color: #5d5ddd; /* Light lavender */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+.login-card {
+  width: 100%;
+  max-width: 400px;
+}
+
+.text-lavender {
+  color: #9370db; /* Purple */
+}
+
+/* Fix inconsistent naming */
+.bg-lavender {
+  background-color: #9370db !important; /* Purple */
+}
+
+.btn-lavender {
+  background-color: #9370db; /* Purple */
+  border-color: #9370db; /* Purple */
+  color: white;
+  border-radius: 10px;
+}
+
+.btn-lavender:hover {
+  background-color: #6a5acd; /* Darker purple */
+  border-color: #6a5acd; /* Darker purple */
+}
+
+.btn-outline-lavender {
+  color: #9370db; /* Purple */
+  border-color: #9370db; /* Purple */
+  border-radius: 10px;
+}
+
+.btn-outline-lavender:hover {
+  background-color: #e6e6fa; /* Lavender */
+  color: #6a5acd; /* Darker purple */
+}
+
+.product-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+  font-size: 1.2rem;
+  color: #6a0dad; /* Darker purple */
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  font-size: 1rem;
+  color: #4b0082; /* Indigo */
+}
+
+.card-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #9370db; /* Medium purple */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  text-align: center;
+}
+
+.card-button:hover {
+  background-color: #6a5acd; /* Darker purple */
+  transform: translateY(-3px);
+}
+
+.card-button:active {
+  transform: translateY(0);
+}
+
+main {
+  min-height: 70vh;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Policy pages styling */
+.policy-container {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.section-title {
+  color: #9370db; /* Medium purple */
+  border-bottom: 2px solid #6a0dad; /* Darker medium purple */
+  padding-bottom: 10px;
+}
+
+/* FAQ accordion styling */
+.accordion-button:not(.collapsed) {
+  background-color: #9370db; /* Medium purple */
+  color: white;
+}
+
+.accordion-button:focus {
+  box-shadow: 0 0 0 0.25rem rgba(147, 112, 219, 0.25); /* Medium purple */
+}
+
+/* Cart badge styling */
+.bg-lavender {
+  background-color: #9370db !important; /* Medium purple */
+}
+

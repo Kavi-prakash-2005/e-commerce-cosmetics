@@ -1,0 +1,10 @@
+body {
+    background-color: #f0f8ff;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .login-container {
+    margin-top: 100px;
+    max-width: 400px;
+  }
+  
